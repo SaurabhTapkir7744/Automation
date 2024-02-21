@@ -3,4 +3,5 @@
   <groupId>com.Selenium</groupId>
   <artifactId>com.Framworks</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies></dependencies>
 </project>
