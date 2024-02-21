@@ -15,8 +15,8 @@ public class AutomateOrangeHRM {
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 
 		// automate browser
-		//driver.findElement(By.cssSelector("input[name='username']")).sendKeys("Admin", Keys.ENTER);
-		//driver.findElement(By.name("password")).sendKeys("admin123",Keys.ENTER);
+		driver.findElement(By.cssSelector("input[name='username']")).sendKeys("Admin", Keys.ENTER);
+		driver.findElement(By.name("password")).sendKeys("admin123",Keys.ENTER);
 		driver.findElement(By.name("search_query")).sendKeys("Mobile");
 		driver.findElement(By.name("password")).sendKeys("Mobile");
 	
