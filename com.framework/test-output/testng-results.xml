@@ -1,103 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Connecting To The Server...]]>
-    </line>
-    <line>
-      <![CDATA[Conneting to Database]]>
-    </line>
-    <line>
-      <![CDATA[Launching The Browser..]]>
-    </line>
-    <line>
-      <![CDATA[Login To Application]]>
-    </line>
-    <line>
-      <![CDATA[--This is Test Script Demo---]]>
-    </line>
-    <line>
-      <![CDATA[Logout To The Application]]>
-    </line>
-    <line>
-      <![CDATA[Close The Browser]]>
-    </line>
-    <line>
-      <![CDATA[Close The Database]]>
-    </line>
-    <line>
-      <![CDATA[Close The Server]]>
-    </line>
   </reporter-output>
-  <suite started-at="2024-02-23T19:00:53Z" name="Default suite" finished-at="2024-02-23T19:00:53Z" duration-ms="46">
+  <suite started-at="2024-02-25T21:03:12Z" name="Default suite" finished-at="2024-02-25T21:03:16Z" duration-ms="3486">
     <groups>
     </groups>
-    <test started-at="2024-02-23T19:00:53Z" name="Default test" finished-at="2024-02-23T19:00:53Z" duration-ms="46">
-      <class name="learningTestNG.ConfigureAnnotations">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:learningTestNG.ConfigureAnnotations@4f32a3ad]" started-at="2024-02-23T19:00:53Z" name="beforeSuite" finished-at="2024-02-23T19:00:53Z" duration-ms="23" status="PASS">
+    <test started-at="2024-02-25T21:03:12Z" name="Default test" finished-at="2024-02-25T21:03:16Z" duration-ms="3486">
+      <class name="assertion.ValidateAssertion">
+        <test-method signature="title()[pri:0, instance:assertion.ValidateAssertion@7ae0a9ec]" started-at="2024-02-25T21:03:12Z" name="title" finished-at="2024-02-25T21:03:16Z" duration-ms="3452" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Connecting To The Server...]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:learningTestNG.ConfigureAnnotations@4f32a3ad]" started-at="2024-02-23T19:00:53Z" name="beforeTest" finished-at="2024-02-23T19:00:53Z" duration-ms="0" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Conneting to Database]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:learningTestNG.ConfigureAnnotations@4f32a3ad]" started-at="2024-02-23T19:00:53Z" name="beforeClass" finished-at="2024-02-23T19:00:53Z" duration-ms="0" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Launching The Browser..]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:learningTestNG.ConfigureAnnotations@4f32a3ad]" started-at="2024-02-23T19:00:53Z" name="beforeMethod" finished-at="2024-02-23T19:00:53Z" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Login To Application]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="runTestScript()[pri:0, instance:learningTestNG.ConfigureAnnotations@4f32a3ad]" started-at="2024-02-23T19:00:53Z" name="runTestScript" finished-at="2024-02-23T19:00:53Z" duration-ms="8" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[--This is Test Script Demo---]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- runTestScript -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:learningTestNG.ConfigureAnnotations@4f32a3ad]" started-at="2024-02-23T19:00:53Z" name="afterMethod" finished-at="2024-02-23T19:00:53Z" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Logout To The Application]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:learningTestNG.ConfigureAnnotations@4f32a3ad]" started-at="2024-02-23T19:00:53Z" name="afterClass" finished-at="2024-02-23T19:00:53Z" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Close The Browser]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:learningTestNG.ConfigureAnnotations@4f32a3ad]" started-at="2024-02-23T19:00:53Z" name="afterTest" finished-at="2024-02-23T19:00:53Z" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Close The Database]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:learningTestNG.ConfigureAnnotations@4f32a3ad]" started-at="2024-02-23T19:00:53Z" name="afterSuite" finished-at="2024-02-23T19:00:53Z" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Close The Server]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- learningTestNG.ConfigureAnnotations -->
+        </test-method> <!-- title -->
+      </class> <!-- assertion.ValidateAssertion -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
