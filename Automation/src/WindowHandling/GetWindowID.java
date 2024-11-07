@@ -28,7 +28,8 @@ public class GetWindowID {
 
 		Set<String> All_Id = driver.getWindowHandles();
 		System.out.println("Parent Id, Child Id:" + All_Id);
-
+		
+		
 	
 	}
 
